@@ -1,53 +1,14 @@
-# Marlin 3D Printer Firmware
+# Marlin 3D Printer Firmware Advance Applications
 <img align="top" width=175 src="Documentation/Logo/Marlin%20Logo%20GitHub.png" />
- Additional documentation can be found in [our wiki](https://github.com/MarlinFirmware/Marlin/wiki/Main-Page).
+ Additional documentation can be found in [their wiki](https://github.com/MarlinFirmware/Marlin/wiki/Main-Page).
 
-## Release Candidate -- Marlin 1.1.0-RC3 - 01 December 2015
-
-__Not for production use – use with caution!__
-
-Previously tagged versions of Marlin are not recommended. However, the latest patches to the Marlin 1.0 series can be found in the [1.0.x](https://github.com/MarlinFirmware/Marlin/tree/1.0.x) branch.
-
-[This branch, "RC"](https://github.com/MarlinFirmware/Marlin/tree/RC), is our current pre-release candidate.
-
-Future development takes place in the [MarlinDev repository](https://github.com/MarlinFirmware/MarlinDev/).
-
-## Recent Changes
-RC3 - 01 Dec 2015
-      A number of language sensitive strings have been revised
-      Formatting of the LCD display has been improved to handle negative coordinates better
-      Various compiler-related issues have been corrected
-
-RC2 - 29 Sep 2015
-      File styling reverted
-      LCD update frequency reduced
-
-RC1 - 19 Sep 2015
-      Published for testing
-
-## Submitting Patches
-Proposed patches should be submitted as a Pull Request against the [RCBugFix](https://github.com/MarlinFirmware/Marlin/tree/RCBugFix) branch
-Note: Do not propose added features. Patches to the Release Candidate are limited to corrections of coding errors for the functions that have been implemented.
-Please follow the proper style. Pull requests containing styling errors will have to be reworked.
-
-
-
-## Current Status: Testing
-
-Please test this firmware and inform us of any issues where it fails to perform in a manner consistent with the designed functionality.
-
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/2224/badge.svg)](https://scan.coverity.com/projects/2224)
-[![Travis Build Status](https://travis-ci.org/MarlinFirmware/MarlinDev.svg)](https://travis-ci.org/MarlinFirmware/MarlinDev)
+## Current Status: Analysing Code
 
 ##### [RepRap.org Wiki Page](http://reprap.org/wiki/Marlin)
 
-## Contact
-
-__Google Hangout:__ <a href="https://plus.google.com/hangouts/_/gxn3wrea5gdhoo223yimsiforia" target="_blank">. Hangout</a> We have a hangout every 2 weeks. Search the issue list for "Hangout" and you will see what time and date the next event is going on.
-
 ## Credits
 
-The current Marlin dev team consists of:
+The Original Marlin dev team consists of:
 
  - Andreas Hardtung [@AnHardt] - Deutsch, English
  - Scott Lahteine [@thinkyhead] - English
